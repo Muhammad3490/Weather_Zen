@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+    overflow-x: hidden;
+}
+.main-container-center{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.p-s{
+    padding: 5px;
+}
+.p-m{
+    padding: 10px;
+}
+.p-l{
+    padding: 15px;
+}
+.p-x{
+    padding: 20px;
+}
+.m-s{
+    margin: 5px;
+}
+.m-m{
+    margin: 10px;
+}
+.m-l{
+    margin: 15px;
+}
+.m-x{
+    margin: 20px;
+}
+.bg-blue-dark{
+    background-color:#146C94;
+    color: #F6F1F1;
+}
+.bg-blue-light{
+   background-color:  #19A7CE;   
+   color: #F6F1F1;
+}
+.bg-blue-light-v{
+    background-color: #AFD3E2;
+    color: #F6F1F1;
+}
+.bg-white{
+    background-color:#F6F1F1;
+    color: #146C94;
+}
+.border-light-blue{
+    border: 1px solid #19A7CE;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+}
+.menu-container{
+   width: 40vw;
+}
+.menu-container i{
+      color: #F6F1F1;
+    font-size: 30px;
+}
+.name-container{
+    color: #F6F1F1;
+    font-size: 28px;
+    font-weight: 700;
+}
+header ul li{
+    display: inline;
+}
+.hidden-menu{
+    display: none;
+    width: 15vw;
+    background-color:#19a7cebb;
+    position: absolute;
+    z-index: 2222;
+    top: 10%;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+}
+.hidden-menu div{
+    cursor: pointer;
+}
+
+.city-form{
+    display:none;
+}
+.city-form input{
+    background-color: #AFD3E2;
+    border-radius: 2px;
+    border: 1px solid #19A7CE;
+}
+.city-form input:focus{
+    outline: none;
+}
+.head1{
+font: 24px;
+}
+.main-container-center div ul li{
+    list-style: none;
+}
+.primary-btn{
+    width: 100px;
+    height: 28px;
+    border-radius: 3px;
+    text-align: center;
+    color: #285430;
+    border: 1px solid #E5D9B6;
+    cursor: pointer;
+}
+.weather-display{
+    display: grid;
+    background-color: #146b94c5;
+    width: auto;
+    height: auto;
+    border-radius: 6px;
+    padding: 10px;
+    color: #F6F1F1;
+}
+.big-text{
+    font-size: 40px;
+    font-weight: 700;
+}
+.color-yellow{
+    color: gold;
+}
+.color-white{
+    color: #F6F1F1;
+}
+.m-left{
+  margin-left: 250px;
+}
+#city-name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.m-left-2{
+    margin-left: 380px;
+    font-size: 12px;
+}
+#time{
+    color: #F6F1F1;
+}
+a{
+    text-decoration: none;
+    color: #F6F1F1;
+}
+footer .grid  ul li{
+    list-style: none;
+}
+

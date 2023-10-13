@@ -1,0 +1,75 @@
+@media  (max-width :1100px) {
+    .p-s{
+        padding: 2.5px;
+    }
+    .p-m{
+        padding: 5px;
+    }
+    .p-l{
+        padding: 10px;
+    }
+    .p-x{
+        padding: 15px;
+    }
+    .m-s{
+        margin: 2.5px;
+    }
+    .m-m{
+        margin: 5px;
+    }
+    .m-l{
+        margin:10px;
+    }
+    .m-x{
+        margin: 15px;
+    }
+    .menu-container{
+        width: 45vw;
+     }
+     .name-container{
+        color: #F6F1F1;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .hidden-menu{
+        display: none;
+        width: 48vw;
+        background-color:#19a7cebb;
+        position: absolute;
+        z-index: 2222;
+        top: 10%;
+        border-radius: 5px;
+        backdrop-filter: blur(5px);
+    }
+    .head1{
+        font-size: 14px;
+        }
+        .weather-display{
+            display: grid;
+            background-color: #146b94c5;
+            width: auto;
+            height: auto;
+            border-radius: 4px;
+            padding:5px;
+            color: #F6F1F1;
+            font-size: 14px;
+        }
+        .big-text{
+            font-size: 24px;
+            font-weight: 500;
+        }
+        #city-name{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .m-left-2{
+            margin-left: 180px;
+            font-size: 11px;
+        }
+        .m-left{
+            margin-left: 120px;
+          }
+          header{
+            height: 7vh;
+          }
+}

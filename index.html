@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Zen</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="sizing.css" />
+    <link rel="shortcut icon" href="ideogram.jpeg" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="bg-blue-dark">
+      <nav>
+        <div class="flex-left">
+          <div class="menu-container flex-left p-m bar-menu menu-btn">
+            <i class="fa-solid fa-bars" id="bar=menu"></i>
+          </div>
+          <div class="hidden-menu grid border-light-blue">
+            <div class="flex-left p-m m-m">
+              <p>Menu<i class="fa-solid fa-house p-s"></i></p>
+            </div>
+            <div class="add-button flex-left p-m m-m">
+              <p>Check weather<i class="fa-solid fa-plus p-s"></i></p>
+            </div>
+            <div class="city-form flex-left p-m m-m">
+              <form action="" id="input-form">
+                <label for="cityName m-s">Enter a city name :</label>
+                <input
+                  type="text"
+                  nam=""
+                  id="cityName"
+                  class="m-s"
+                  placeholder="Enter a city name"
+                />
+                <div class="flex-center">
+                  <button type="submit" class="primary-btn bg-beige m-m">
+                    Check
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="name-container flex-center p-m"><p>Weather Zen</p></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="main-container-center bg-white">
+        <div class="flex-center">
+          <ul>
+            <li>
+              <div class="head1 flex-center m-m">
+                <h1>Welcome to Weather Zen</h1>
+              </div>
+            </li>
+            <li>
+              <div class="flex-left m-m">
+                <p>
+                  To check the weather updates of any city around the globe.
+                  <br />
+                  Simple click on the menu on the top left corner ,then press
+                  check weather. <br />
+                  Then enter the city name and you will get the weather updates.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="weather-display m-l">
+                <div class="flex-left">
+                  <div id="city-name" class="m-s"></div>
+                  <div id="time" class="m-left-2"></div>
+                </div>
+
+                <div class="big-text m-s" id="temp"></div>
+                <div id="feelsC" class="m-s"></div>
+                <div id="feelsF" class="m-s"></div>
+                <div id="conditions" class="m-s"></div>
+                <div id="humidity" class="m-s"></div>
+                <div id="uv" class="m-s"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-blue-dark">
+      <div class="grid p-m">
+        <div class="flex-left p-m"><h1 class="big-text">Weather Zen</h1></div>
+        <div class="flex-center">
+          <ul>
+            <a href="https://muhammad3490.github.io/web-dev/"
+              ><li class="m-s">Contact us</li></a
+            >
+            <a href="https://www.pmd.gov.pk/en/"
+              ><li class="m-s">Article 1</li></a
+            >
+            <a
+              href="https://www.c2es.org/content/extreme-weather-and-climate-change/?gclid=Cj0KCQjw1aOpBhCOARIsACXYv-cT_iKC9XZJzHsUCesS_ydqVOfQumOInclz69aTzkFH4wb0AJRCYrgaAkQtEALw_wcB"
+              ><li class="m-s">Article 2</li></a
+            >
+            <a
+              href="https://www.context.news/climate?gad=1&gclid=Cj0KCQjw1aOpBhCOARIsACXYv-cNJ07VXwlbuI3xVv_Hi3I1IAbmCbRwt9soUkoe_sPAkod9FCgEGrcaAslZEALw_wcB"
+              ><li class="m-s">Article 3</li></a
+            >
+            <a
+              href="https://www.un.org/en/awake-at-night/S4-E10-I-refuse-to-give-up?gclid=Cj0KCQjw1aOpBhCOARIsACXYv-fil-2CZpbOEPoLhgyNsU8xFUyPUxv1OBA5QbHrXaPaIiTP9DufVUAaAlv1EALw_wcB"
+              ><li class="m-s">About creator</li></a
+            >
+          </ul>
+        </div>
+        <div class="bg-blue-dark flex-center p-l m-m">
+          <p>&#169; 2023 Weather Zen.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="weatherApi.js"></script>
+  </body>
+</html>
